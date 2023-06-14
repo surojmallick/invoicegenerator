@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Code By Sarfaraz's Coding Club -->
+    <!-- Subscribe on YouTube (https://youtube.com/@sarfaraz'scodingclub) -->
+    <title>Invoice Generator</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Invoice Input -->
+        <h3>Invoice Generator</h3>
+        <form id="invoiceForm">
+            <input type="text" id="ItemName" placeholder="Enter Item...">
+            <input type="number" id="ItemPrice" placeholder="Enter Price...">
+            <input type="number" id="quantity" placeholder="Qty">
+            <button type="button" onclick="addItem()" id="mainbutton">Add Item</button>
+        </form>
+        <!-- Invoice Display Section -->
+        <h2>Invoice</h2>
+        <table id="invoiceTable">
+            <tr>
+                <th>Item Name</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Total</th>
+                <th>Action</th>
+            </tr>
+        </table>
+        <h6>Total Amount <span id="totalAmount">0</span></h6>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

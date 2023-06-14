@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 400px;
+    height: 600px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 10px;
+    margin: 150px auto;
+    padding: 10px;
+}
+.container h3{
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: verdana;
+}
+.container input{
+    margin: 2px;
+    margin-top: 20px;
+    height: 30px;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    padding: 2px;
+}
+#ItemName{
+    width: 48%;
+}
+#ItemPrice{
+    width: 22%;
+}
+#quantity{
+    width: 22%;
+}
+#mainbutton{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 90%;
+    height: 30px;
+    padding: 2px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: dodgerblue;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+#mainbutton:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+/* Invoice Display Style */
+.container h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    font-family: verdana;
+}
+#invoiceTable{
+    width: 98%;
+    margin: 2px;
+    padding: 2px;
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(6, 67, 128);
+    border-radius: 5px;
+}
+.container h6{
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+#totalAmount{
+    background-color: rgb(5, 45, 85);
+    color: white;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 2px;
+}
+#del{
+    width: 80px;
+    height: 20px;
+    color: white;
+    background-color: red;
+    padding: 2px;
+    text-align: center;
+    margin: 2px;
+}
